@@ -1,0 +1,14 @@
+version: '3.7'
+services:
+  app:
+    build: .
+    container_name: api_secure
+    network_mode: host
+    volumes:
+      - ./:/app
+    env_file:
+    - .env
+    command: sh -c "yarn install && yarn dev:server"
+    restart: unless-stopped
+    ports:
+      - 3000
