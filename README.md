@@ -1,6 +1,6 @@
 # API-SECURE
 
-Api Secure - Seguindo os padrões REST e RESTful
+Api Secure - Seguindo os padrões REST e RESTfull
  
 ## Requerimentos
 
